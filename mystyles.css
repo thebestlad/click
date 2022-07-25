@@ -1,0 +1,23 @@
+div{
+    background-color: white;
+    color: #4ac0ee;
+    border: 3px solid #4ac0ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+    box-shadow: -13px 10px;
+    transition-duration: 0.5s;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+div:hover{
+    background-color: #4ac0ee;
+    color: white;
+    box-shadow: 0px 0px;
+}
